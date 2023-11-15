@@ -1,28 +1,59 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using InfirmerieBO; // Référence la couche BO
+﻿using System;
 using System.Data.SqlClient;
-using System;
+using InfirmerieBO; // Référence la couche BO
 
 namespace UtilisateurDAL
 {
-    public class UtilisateurDAO
+    public class UtilisateurDao
     {
-        private static UtilisateurDAO unUtilisateurDAO;
-        // Accesseur en lecture, renvoi une instance
-        public static UtilisateurDAO GetunUtilisateurDAO()
+        private static UtilisateurDao unUtilisateurDAO;
+        private string chaineConnexion;
+
+        // Méthode pour obtenir une instance de la classe UtilisateurDao
+        public static UtilisateurDao GetunUtilisateurDAO()
         {
             if (unUtilisateurDAO == null)
             {
-                unUtilisateurDAO = new UtilisateurDAO();
+                unUtilisateurDAO = new UtilisateurDao();
             }
             return unUtilisateurDAO;
         }
 
-        //Faire une fonction pour retourner la fonction ValidateLogin
-        
+        // Méthode pour définir la chaîne de connexion
+        public void SetchaineConnexion(string connectionString)
+        {
+            chaineConnexion = connectionString;
+        }
 
+        // Méthode pour valider les informations d'identification
+        public bool ValidateLogin(Login utilisateur)
+        {
+            bool loginIsValid = false;
+
+            using (SqlConnection connection = new SqlConnection(chaineConnexion))
+            {
+                string query = "SELECT COUNT(*) FROM Utilisateurs WHERE NomUtilisateur = @NomUtilisateur AND MotDePasse = @MotDePasse";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@NomUtilisateur", utilisateur.User);
+                command.Parameters.AddWithValue("@MotDePasse", utilisateur.Password);
+
+                try
+                {
+                    connection.Open();
+                    int count = (int)command.ExecuteScalar();
+                    if (count > 0)
+                    {
+                        loginIsValid = true;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Gérer l'exception (ex) de connexion à la base de données ici
+                    Console.WriteLine("Erreur de connexion à la base de données : " + ex.Message);
+                }
+            }
+
+            return loginIsValid;
+        }
     }
 }
-

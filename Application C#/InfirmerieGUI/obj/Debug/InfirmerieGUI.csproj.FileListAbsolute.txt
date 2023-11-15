@@ -16,3 +16,11 @@ C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CopyComplete
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.AssemblyReference.cache
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleConnexion.resources
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.Properties.Resources.resources
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.GenerateResource.cache
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CoreCompileInputs.cache
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
