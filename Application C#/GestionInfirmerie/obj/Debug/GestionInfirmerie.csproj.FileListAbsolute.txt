@@ -1,0 +1,13 @@
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\obj\Debug\GestionInfirmerie.csproj.AssemblyReference.cache
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\obj\Debug\GestionInfirmerie.csproj.SuggestedBindingRedirects.cache
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\obj\Debug\GestionInfirmerie.csproj.CoreCompileInputs.cache
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\GestionInfirmerie.exe.config
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\GestionInfirmerie.exe
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\GestionInfirmerie.pdb
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\InfirmerieBO.dll
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\InfirmerieDAL.dll
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\InfirmerieBO.pdb
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\bin\Debug\InfirmerieDAL.pdb
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\obj\Debug\GestionInfirmerie.csproj.CopyComplete
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\obj\Debug\GestionInfirmerie.exe
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\GestionInfirmerie\obj\Debug\GestionInfirmerie.pdb

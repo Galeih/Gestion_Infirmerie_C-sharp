@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Configuration;
+using InfirmerieBLL; // Référence la couche BLL
+using UtilisateurDAL;
+using InfirmerieBO;
+
+
+namespace InfirmerieGUI
+{
+    public partial class FrmModuleConnexion : Form
+    {
+        public FrmModuleConnexion()
+        {
+            InitializeComponent();
+            // Récupération de chaîne de connexion à la BD à l'ouverture du formulaire
+            GestionUtilisateurs.SetchaineConnexion(ConfigurationManager.ConnectionStrings["ConnectionStringSetting"]);
+        }
+
+        private void btnValidConnex_Click(object sender, EventArgs e)
+        {
+            // Récupérer l'identifiant et le mot de passe depuis les contrôles du formulaire
+
+            Login utilisateur = new Login(textBoxIdentifiant.Text, textBoxPassword.Text);
+
+            // Vérifier les identifiants dans la base de données
+            if (UtilisateurDAO.ValidateLogin(utilisateur)) //Passer par la BLL
+            {
+                MessageBox.Show("Connexion réussie!");
+                // Ajouter le code pour passer à la prochaine fenêtre ou effectuer d'autres actions après la connexion réussie.
+            }
+            else
+            {
+                MessageBox.Show("Identifiant ou mot de passe incorrect.");
+            }
+        }
+
+        private void textBoxIdentifiant_TextChanged(object sender, EventArgs e)
+        {
+            // Optionnel : Ajouter du code en réponse à des modifications dans le champ de l'identifiant.
+        }
+
+        private void textBoxPassword_TextChanged(object sender, EventArgs e)
+        {
+            // Optionnel : Ajouter du code en réponse à des modifications dans le champ du mot de passe.
+        }
+    }
+}
