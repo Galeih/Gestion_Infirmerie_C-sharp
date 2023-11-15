@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Configuration;
-using InfirmerieBO; // Référence la couche BO
-using UtilisateurDAL; // Référence la couche DAL
+using InfirmerieBO;
+using UtilisateurDAL;
 using System.Data.SqlClient;
 
 namespace InfirmerieBLL
 {
     public class GestionUtilisateurs
     {
-        private static GestionUtilisateurs uneGestionUtilisateurs; // objet BLL
+        private static GestionUtilisateurs uneGestionUtilisateurs; // Objet BLL
 
         // Accesseur en lecture
         public static GestionUtilisateurs GetGestionUtilisateurs()
@@ -30,21 +27,31 @@ namespace InfirmerieBLL
             ConnexionBD.GetConnexionBD().SetchaineConnexion(chaine);
         }
 
-        //Passer par la DAL (fontion ValidateLogin)
+        // Passer par la DAL (fonction ValidateLogin)
         public static bool ValidateLogin(Login uti)
         {
-            SqlDataReader result;
-            SqlConnection maConnexion = ConnexionBD.GetConnexionBD().GetSqlConnexion();
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = maConnexion;
-            cmd.CommandText = "SELECT * FROM utilisateur WHERE utilisateur_login = '@login' AND utilisateur_mdp = '@mdp'";
-            cmd.Parameters.AddWithValue("@login", uti.GetUser());
-            cmd.Parameters.AddWithValue("@mdp", uti.GetPassword());
-            result = cmd.ExecuteReader();
-            bool res = result.HasRows;
-            maConnexion.Close();
+            bool res = false;
 
-            return (res);
+            using (SqlConnection maConnexion = ConnexionBD.GetConnexionBD().GetSqlConnexion())
+            {
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = maConnexion;
+                cmd.CommandText = "SELECT * FROM utilisateur WHERE utilisateur_login = @login AND utilisateur_mdp = @mdp";
+                cmd.Parameters.AddWithValue("@login", uti.User); // Utilisation de la propriété User de la classe Login
+                cmd.Parameters.AddWithValue("@mdp", uti.Password); // Utilisation de la propriété Password de la classe Login
+
+                SqlDataReader result = cmd.ExecuteReader();
+                res = result.HasRows;
+            } // La connexion se ferme automatiquement à la fin du bloc 'using'
+
+            return res;
         }
     }
 }
+
+
+/*Utilisation de la déclaration using pour garantir la fermeture automatique de la connexion à la base de données après utilisation (dans la méthode ValidateLogin).
+Correction de la requête SQL en supprimant les guillemets simples autour des paramètres @login et @mdp. Les paramètres dans une requête paramétrée ne doivent pas être entourés de guillemets simples ou doubles.
+Changement de la variable res pour être déclarée et initialisée à false au début de la méthode ValidateLogin.
+Utilisation de bool res = result.HasRows; pour déterminer si des lignes ont été renvoyées par la requête SQL.
+*/

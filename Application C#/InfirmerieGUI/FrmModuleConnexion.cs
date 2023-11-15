@@ -52,5 +52,10 @@ namespace InfirmerieGUI
         {
             // Optionnel : Ajouter du code en réponse à des modifications dans le champ du mot de passe.
         }
+
+        private void labelIdentifiant_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

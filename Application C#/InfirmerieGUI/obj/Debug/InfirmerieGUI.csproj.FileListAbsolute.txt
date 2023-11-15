@@ -24,3 +24,13 @@ C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\Infirmerie
 C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CoreCompileInputs.cache
 C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
 C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieGUI.exe.config
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieGUI.exe
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieGUI.pdb
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBLL.dll
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBO.dll
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieDAL.dll
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBLL.pdb
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBO.pdb
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieDAL.pdb
+C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CopyComplete
