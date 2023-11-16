@@ -15,21 +15,23 @@ namespace InfirmerieGUI
         private FrmModuleAccueil retourAccueil;
         private FrmModuleAjouterEleve frmModuleAjouterEleve;
 
-        public FrmModuleAfficherEleve(FrmModuleAccueil retourAccueil)
+        //Constructeur de "FrmModuleAfficherEleve"
+        public FrmModuleAfficherEleve()
         {
             InitializeComponent();
-            this.retourAccueil = retourAccueil;
         }
 
-        public FrmModuleAfficherEleve(FrmModuleAjouterEleve frmModuleAjouterEleve)
-        {
-            this.frmModuleAjouterEleve = frmModuleAjouterEleve;
-        }
 
+        //Bouton qui renvoie vers la page d'accueil
         private void btnRetourMenu_Click(object sender, EventArgs e)
         {
             retourAccueil.Show();
             this.Close();
+        }
+
+        private void FrmModuleAfficherEleve_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

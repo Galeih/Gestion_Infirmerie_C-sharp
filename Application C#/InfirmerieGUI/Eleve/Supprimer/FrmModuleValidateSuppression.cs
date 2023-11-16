@@ -13,24 +13,18 @@ namespace InfirmerieGUI
     public partial class FrmModuleValidateSuppression : Form
     {
         private FrmModuleSupprimerSelectEleve parentFormSupprimer;
-        public FrmModuleValidateSuppression(FrmModuleSupprimerSelectEleve parentFormSupprimer)
+        //Constructeur de "FrmModuleValidateSuppression"
+        public FrmModuleValidateSuppression()
         {
             InitializeComponent();
-            this.parentFormSupprimer = parentFormSupprimer;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        //Bouton qui supprime l'élève selectionner
+        private void buttonValidateYes_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
+        //Bouton qui renvoie vers la page de selection de l'élève à supprimer
         private void buttonValidateNo_Click(object sender, EventArgs e)
         {
             parentFormSupprimer.Show();

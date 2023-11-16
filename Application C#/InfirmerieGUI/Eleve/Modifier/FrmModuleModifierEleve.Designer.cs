@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonRetourAfficherEleve = new System.Windows.Forms.Button();
+            this.buttonRetourSelectEleve = new System.Windows.Forms.Button();
             this.buttonModifierEleve = new System.Windows.Forms.Button();
             this.textBoxClasseEleve = new System.Windows.Forms.TextBox();
             this.labelClasseEleve = new System.Windows.Forms.Label();
@@ -49,16 +49,16 @@
             this.labelModifierEleve = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // buttonRetourAfficherEleve
+            // buttonRetourSelectEleve
             // 
-            this.buttonRetourAfficherEleve.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.buttonRetourAfficherEleve.Location = new System.Drawing.Point(422, 395);
-            this.buttonRetourAfficherEleve.Name = "buttonRetourAfficherEleve";
-            this.buttonRetourAfficherEleve.Size = new System.Drawing.Size(75, 23);
-            this.buttonRetourAfficherEleve.TabIndex = 56;
-            this.buttonRetourAfficherEleve.Text = "Retour";
-            this.buttonRetourAfficherEleve.UseVisualStyleBackColor = false;
-            this.buttonRetourAfficherEleve.Click += new System.EventHandler(this.buttonRetourAfficherEleve_Click);
+            this.buttonRetourSelectEleve.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.buttonRetourSelectEleve.Location = new System.Drawing.Point(422, 395);
+            this.buttonRetourSelectEleve.Name = "buttonRetourSelectEleve";
+            this.buttonRetourSelectEleve.Size = new System.Drawing.Size(75, 23);
+            this.buttonRetourSelectEleve.TabIndex = 56;
+            this.buttonRetourSelectEleve.Text = "Retour";
+            this.buttonRetourSelectEleve.UseVisualStyleBackColor = false;
+            this.buttonRetourSelectEleve.Click += new System.EventHandler(this.buttonRetourAfficherEleve_Click);
             // 
             // buttonModifierEleve
             // 
@@ -69,6 +69,7 @@
             this.buttonModifierEleve.TabIndex = 55;
             this.buttonModifierEleve.Text = "Modifier";
             this.buttonModifierEleve.UseVisualStyleBackColor = false;
+            this.buttonModifierEleve.Click += new System.EventHandler(this.buttonModifierEleve_Click);
             // 
             // textBoxClasseEleve
             // 
@@ -223,7 +224,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonRetourAfficherEleve);
+            this.Controls.Add(this.buttonRetourSelectEleve);
             this.Controls.Add(this.buttonModifierEleve);
             this.Controls.Add(this.textBoxClasseEleve);
             this.Controls.Add(this.labelClasseEleve);
@@ -251,7 +252,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonRetourAfficherEleve;
+        private System.Windows.Forms.Button buttonRetourSelectEleve;
         private System.Windows.Forms.Button buttonModifierEleve;
         private System.Windows.Forms.TextBox textBoxClasseEleve;
         private System.Windows.Forms.Label labelClasseEleve;

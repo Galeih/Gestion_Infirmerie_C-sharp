@@ -19,7 +19,7 @@ namespace InfirmerieGUI
 
         private void buttonAfficherEleve_Click(object sender, EventArgs e)
         {
-            FrmModuleAfficherEleve RetourAfficherEleve = new FrmModuleAfficherEleve(this);
+            FrmModuleAfficherEleve RetourAfficherEleve = new FrmModuleAfficherEleve();
             RetourAfficherEleve.Show();
             this.Close();
         }

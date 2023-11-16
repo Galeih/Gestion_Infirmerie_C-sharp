@@ -12,16 +12,13 @@ namespace InfirmerieGUI
 {
     public partial class FrmModuleModifierEleve : Form
     {
-        private FrmModifierSelectEleve frmModifierSelectEleve;
+        private FrmModifierSelectEleve RetourSelectEleve;
 
-        public FrmModuleModifierEleve()
+        //Constructeur de "FrmModuleModifierEleve"
+        public FrmModuleModifierEleve(FrmModifierSelectEleve RetourSelectEleve)
         {
             InitializeComponent();
-        }
-
-        public FrmModuleModifierEleve(FrmModifierSelectEleve frmModifierSelectEleve)
-        {
-            this.frmModifierSelectEleve = frmModifierSelectEleve;
+            this.RetourSelectEleve = RetourSelectEleve;
         }
 
         private void labelModifierEleve_Click(object sender, EventArgs e)
@@ -30,11 +27,15 @@ namespace InfirmerieGUI
         }
 
         //Bouton retour vers la selection de l'élève à modifier
-        private void buttonRetourAfficherEleve_Click(object sender, EventArgs e)
+        private void buttonRetourSelectEleve_Click(object sender, EventArgs e)
         {
-            FrmModifierSelectEleve form2 = new FrmModifierSelectEleve(this);
-            form2.Show();
+            RetourSelectEleve.Show();
             this.Close();
+        }
+
+        private void buttonModifierEleve_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

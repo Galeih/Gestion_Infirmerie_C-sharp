@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonRetourSupprimer = new System.Windows.Forms.Button();
+            this.buttonRetourAccueil = new System.Windows.Forms.Button();
             this.buttonSupprimer = new System.Windows.Forms.Button();
             this.comboBoxEleveSupprimer = new System.Windows.Forms.ComboBox();
             this.comboBoxClasseEleve = new System.Windows.Forms.ComboBox();
@@ -37,15 +37,15 @@
             this.labelClasseEleve = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // buttonRetourSupprimer
+            // buttonRetourAccueil
             // 
-            this.buttonRetourSupprimer.Location = new System.Drawing.Point(344, 289);
-            this.buttonRetourSupprimer.Name = "buttonRetourSupprimer";
-            this.buttonRetourSupprimer.Size = new System.Drawing.Size(75, 23);
-            this.buttonRetourSupprimer.TabIndex = 13;
-            this.buttonRetourSupprimer.Text = "Retour";
-            this.buttonRetourSupprimer.UseVisualStyleBackColor = true;
-            this.buttonRetourSupprimer.Click += new System.EventHandler(this.buttonRetourSupprimer_Click);
+            this.buttonRetourAccueil.Location = new System.Drawing.Point(344, 289);
+            this.buttonRetourAccueil.Name = "buttonRetourAccueil";
+            this.buttonRetourAccueil.Size = new System.Drawing.Size(75, 23);
+            this.buttonRetourAccueil.TabIndex = 13;
+            this.buttonRetourAccueil.Text = "Retour";
+            this.buttonRetourAccueil.UseVisualStyleBackColor = true;
+            this.buttonRetourAccueil.Click += new System.EventHandler(this.buttonRetourAccueil_Click);
             // 
             // buttonSupprimer
             // 
@@ -105,7 +105,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonRetourSupprimer);
+            this.Controls.Add(this.buttonRetourAccueil);
             this.Controls.Add(this.buttonSupprimer);
             this.Controls.Add(this.comboBoxEleveSupprimer);
             this.Controls.Add(this.comboBoxClasseEleve);
@@ -121,7 +121,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonRetourSupprimer;
+        private System.Windows.Forms.Button buttonRetourAccueil;
         private System.Windows.Forms.Button buttonSupprimer;
         private System.Windows.Forms.ComboBox comboBoxEleveSupprimer;
         private System.Windows.Forms.ComboBox comboBoxClasseEleve;

@@ -12,20 +12,24 @@ namespace InfirmerieGUI
 {
     public partial class FrmModuleSupprimerSelectEleve : Form
     {
+        private FrmModuleAccueil RetourAccueil;
+
+        //Constructeur de "FrmModuleSupprimerSelectEleve"
         public FrmModuleSupprimerSelectEleve()
         {
             InitializeComponent();
         }
 
-        private void buttonRetourSupprimer_Click(object sender, EventArgs e)
+        //Bouton qui renvoie vers la page d'accueil
+        private void buttonRetourAccueil_Click(object sender, EventArgs e)
         {
-
+            FrmModuleAfficherEleve RetourAfficherEleve = new FrmModuleAfficherEleve();
+            RetourAfficherEleve.Show();
+            this.Close();
         }
-
+        //Bouton qui selectionne l'élève à supprimer
         private void buttonSupprimer_Click(object sender, EventArgs e)
         {
-            FrmModuleValidateSuppression validateSuppression = new FrmModuleValidateSuppression(this);
-            validateSuppression.Show();
         }
     }
 }

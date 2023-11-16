@@ -26,5 +26,15 @@ namespace InfirmerieGUI
         {
 
         }
+
+        private void buttonConsulterEleve_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonQuitter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

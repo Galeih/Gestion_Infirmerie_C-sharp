@@ -82,6 +82,7 @@
             this.buttonConsulterEleve.TabIndex = 3;
             this.buttonConsulterEleve.Text = "Consulter les élèves";
             this.buttonConsulterEleve.UseVisualStyleBackColor = true;
+            this.buttonConsulterEleve.Click += new System.EventHandler(this.buttonConsulterEleve_Click);
             // 
             // buttonAjouterEleve
             // 
@@ -200,6 +201,7 @@
             this.buttonQuitter.TabIndex = 16;
             this.buttonQuitter.Text = "Quitter";
             this.buttonQuitter.UseVisualStyleBackColor = true;
+            this.buttonQuitter.Click += new System.EventHandler(this.buttonQuitter_Click);
             // 
             // FrmModuleAccueil
             // 
