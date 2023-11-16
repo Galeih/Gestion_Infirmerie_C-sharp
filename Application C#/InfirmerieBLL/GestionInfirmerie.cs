@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Configuration;
-using InfirmerieBO;
-using UtilisateurDAL;
 using System.Data.SqlClient;
+using InfirmerieBO;
+using InfirmerieDAL;
+using UtilisateurDAL;
 
 namespace InfirmerieBLL
 {
@@ -34,9 +35,11 @@ namespace InfirmerieBLL
 
             using (SqlConnection maConnexion = ConnexionBD.GetConnexionBD().GetSqlConnexion())
             {
-                SqlCommand cmd = new SqlCommand();
-                cmd.Connection = maConnexion;
-                cmd.CommandText = "SELECT * FROM utilisateur WHERE utilisateur_login = @login AND utilisateur_mdp = @mdp";
+                SqlCommand cmd = new SqlCommand
+                {
+                    Connection = maConnexion,
+                    CommandText = "SELECT * FROM utilisateur WHERE utilisateur_login = @login AND utilisateur_mdp = @mdp"
+                };
                 cmd.Parameters.AddWithValue("@login", uti.User); // Utilisation de la propriété User de la classe Login
                 cmd.Parameters.AddWithValue("@mdp", uti.Password); // Utilisation de la propriété Password de la classe Login
 
