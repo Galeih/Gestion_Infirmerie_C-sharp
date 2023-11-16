@@ -1,27 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Data.SqlClient;
 
 namespace UtilisateurDAL
 {
-    //Classe de gestion de la connexion à la BD
+    // Classe de gestion de la connexion à la BD
     public class ConnexionBD
     {
         private SqlConnection maConnexion;
-        private static ConnexionBD uneConnexionBD; // Instance d'une connexion
-        private string chaineConnexion; // Chaîne de connexion à la BDD
-
-        //Accesseur en lecture de la chaîne de connexion
+        private static ConnexionBD uneConnexionBD; // instance d'une connexion
+        private string chaineConnexion; // chaîne de connexion à la BD
+                                        // Accesseur en lecture de la chaîne de connexion
         public string GetchaineConnexion()
         {
             return chaineConnexion;
         }
-
-        //Accesseur en écriture de la chaîne de connexion
+        // Accesseur en écriture de la chaîne de connexion
         public void SetchaineConnexion(string ch)
         {
             chaineConnexion = ch;
         }
-
         // Accesseur en lecture, renvoi une instance de connexion
         public static ConnexionBD GetConnexionBD()
         {
@@ -31,43 +31,32 @@ namespace UtilisateurDAL
             }
             return uneConnexionBD;
         }
-
         // Constructeur privé
         private ConnexionBD()
         {
         }
-
-        // Modification effectuée sur la gestion de la connexion avec affichage d'erreurs
         public SqlConnection GetSqlConnexion()
         {
             if (maConnexion == null)
             {
-                maConnexion = new SqlConnection(chaineConnexion);
-                try
-                {
-                    maConnexion.Open();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Erreur de connexion à la base de données : " + ex.Message);
-                    throw;
-                }
+                maConnexion = new SqlConnection();
+            }
+            maConnexion.ConnectionString = chaineConnexion;
+            // Si la connexion est fermée, on l’ouvre
+            if (maConnexion.State == System.Data.ConnectionState.Closed)
+            {
+                maConnexion.Open();
             }
             return maConnexion;
         }
-
         public void CloseConnexion()
         {
-            if (maConnexion != null && maConnexion.State != System.Data.ConnectionState.Closed)
+            // Si la connexion est ouverte, on la ferme
+            if (this.maConnexion != null && this.maConnexion.State !=
+           System.Data.ConnectionState.Closed)
             {
-                maConnexion.Close();
-                maConnexion = null; // Réinitialiser la connexion après la fermeture
+                this.maConnexion.Close();
             }
         }
     }
 }
-
-// Plusieurs points sont à évoquer :
-// La méthode GetSqlConnexion() utilise maConnexion pour stocker la connexion et la retourne si elle existe déjà.
-// La méthode CloseConnexion() ferme la connexion et réinitialise maConnexion à null après la fermeture.
-// Cette approche indique qu'une seule connexion est utilisée et qu'elle est correctement gérée lors de l'ouverture et/ou la fermeture.

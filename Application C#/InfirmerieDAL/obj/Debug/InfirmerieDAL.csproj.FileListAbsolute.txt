@@ -7,12 +7,3 @@ C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieDAL\bin\Debug\
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieDAL\obj\Debug\InfirmerieDAL.csproj.CopyComplete
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieDAL\obj\Debug\InfirmerieDAL.dll
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieDAL\obj\Debug\InfirmerieDAL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\bin\Debug\InfirmerieDAL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\bin\Debug\InfirmerieDAL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\bin\Debug\InfirmerieBO.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\bin\Debug\InfirmerieBO.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\obj\Debug\InfirmerieDAL.csproj.AssemblyReference.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\obj\Debug\InfirmerieDAL.csproj.CoreCompileInputs.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\obj\Debug\InfirmerieDAL.csproj.CopyComplete
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\obj\Debug\InfirmerieDAL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieDAL\obj\Debug\InfirmerieDAL.pdb

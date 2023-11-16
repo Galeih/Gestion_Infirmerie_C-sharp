@@ -33,15 +33,15 @@
             this.labelPassword = new System.Windows.Forms.Label();
             this.textBoxIdentifiant = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.labelAuthenfification = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnValidConnex
             // 
             this.btnValidConnex.BackColor = System.Drawing.Color.Gray;
-            this.btnValidConnex.Location = new System.Drawing.Point(376, 287);
-            this.btnValidConnex.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnValidConnex.Location = new System.Drawing.Point(282, 233);
             this.btnValidConnex.Name = "btnValidConnex";
-            this.btnValidConnex.Size = new System.Drawing.Size(100, 28);
+            this.btnValidConnex.Size = new System.Drawing.Size(75, 23);
             this.btnValidConnex.TabIndex = 0;
             this.btnValidConnex.Text = "Valider";
             this.btnValidConnex.UseVisualStyleBackColor = false;
@@ -50,55 +50,61 @@
             // labelIdentifiant
             // 
             this.labelIdentifiant.AutoSize = true;
-            this.labelIdentifiant.Location = new System.Drawing.Point(257, 109);
-            this.labelIdentifiant.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelIdentifiant.Location = new System.Drawing.Point(168, 127);
             this.labelIdentifiant.Name = "labelIdentifiant";
-            this.labelIdentifiant.Size = new System.Drawing.Size(72, 16);
+            this.labelIdentifiant.Size = new System.Drawing.Size(62, 13);
             this.labelIdentifiant.TabIndex = 1;
             this.labelIdentifiant.Text = "Identifiant : ";
-            this.labelIdentifiant.Click += new System.EventHandler(this.labelIdentifiant_Click);
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(224, 228);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelPassword.Location = new System.Drawing.Point(168, 185);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(95, 16);
+            this.labelPassword.Size = new System.Drawing.Size(77, 13);
             this.labelPassword.TabIndex = 2;
             this.labelPassword.Text = "Mot de passe :";
             // 
             // textBoxIdentifiant
             // 
-            this.textBoxIdentifiant.Location = new System.Drawing.Point(227, 153);
-            this.textBoxIdentifiant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxIdentifiant.Location = new System.Drawing.Point(271, 127);
             this.textBoxIdentifiant.Name = "textBoxIdentifiant";
-            this.textBoxIdentifiant.Size = new System.Drawing.Size(226, 22);
+            this.textBoxIdentifiant.Size = new System.Drawing.Size(100, 20);
             this.textBoxIdentifiant.TabIndex = 3;
             this.textBoxIdentifiant.TextChanged += new System.EventHandler(this.textBoxIdentifiant_TextChanged);
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(361, 228);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPassword.Location = new System.Drawing.Point(271, 185);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(132, 22);
+            this.textBoxPassword.Size = new System.Drawing.Size(100, 20);
             this.textBoxPassword.TabIndex = 4;
             this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
+            // labelAuthenfification
+            // 
+            this.labelAuthenfification.AutoSize = true;
+            this.labelAuthenfification.Location = new System.Drawing.Point(294, 56);
+            this.labelAuthenfification.Name = "labelAuthenfification";
+            this.labelAuthenfification.Size = new System.Drawing.Size(68, 13);
+            this.labelAuthenfification.TabIndex = 5;
+            this.labelAuthenfification.Text = "S\'authentifier";
+            this.labelAuthenfification.Click += new System.EventHandler(this.label1_Click);
+            // 
             // FrmModuleConnexion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelAuthenfification);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxIdentifiant);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelIdentifiant);
             this.Controls.Add(this.btnValidConnex);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmModuleConnexion";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmModuleConnexion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,6 +117,7 @@
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.TextBox textBoxIdentifiant;
         private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.Label labelAuthenfification;
     }
 }
 

@@ -9,14 +9,3 @@ C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBLL\obj\Debug\
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBLL\obj\Debug\InfirmerieBLL.csproj.CopyComplete
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBLL\obj\Debug\InfirmerieBLL.dll
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBLL\obj\Debug\InfirmerieBLL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\bin\Debug\InfirmerieBLL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\bin\Debug\InfirmerieBLL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\bin\Debug\InfirmerieBO.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\bin\Debug\InfirmerieDAL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\bin\Debug\InfirmerieBO.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\bin\Debug\InfirmerieDAL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\obj\Debug\InfirmerieBLL.csproj.AssemblyReference.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\obj\Debug\InfirmerieBLL.csproj.CoreCompileInputs.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\obj\Debug\InfirmerieBLL.csproj.CopyComplete
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\obj\Debug\InfirmerieBLL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBLL\obj\Debug\InfirmerieBLL.pdb

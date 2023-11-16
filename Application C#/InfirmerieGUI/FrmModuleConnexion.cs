@@ -1,8 +1,17 @@
-﻿using InfirmerieBO;
-using System.Configuration;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using System;
+using System.Configuration;
+using InfirmerieBLL; // Référence la couche BLL
 using UtilisateurDAL;
+using InfirmerieBO;
+
 
 namespace InfirmerieGUI
 {
@@ -12,27 +21,17 @@ namespace InfirmerieGUI
         {
             InitializeComponent();
             // Récupération de chaîne de connexion à la BD à l'ouverture du formulaire
-            string connectionString = ConfigurationManager.ConnectionStrings["ConnectionStringSetting"]?.ConnectionString;
-
-            // Vérification que la chaîne de connexion est présente avant de la passer à UtilisateurDao
-            if (!string.IsNullOrEmpty(connectionString))
-            {
-                UtilisateurDao.GetunUtilisateurDAO().SetchaineConnexion(connectionString);
-            }
-            else
-            {
-                MessageBox.Show("La chaîne de connexion est manquante ou invalide. Veuillez vérifier la configuration.");
-                // Vous pouvez ajouter d'autres actions à prendre en cas de chaîne de connexion manquante/invalide
-            }
+            GestionUtilisateurs.SetchaineConnexion(ConfigurationManager.ConnectionStrings["ConnectionStringSetting"]);
         }
 
         private void btnValidConnex_Click(object sender, EventArgs e)
         {
             // Récupérer l'identifiant et le mot de passe depuis les contrôles du formulaire
+
             Login utilisateur = new Login(textBoxIdentifiant.Text, textBoxPassword.Text);
 
             // Vérifier les identifiants dans la base de données
-            if (UtilisateurDao.GetunUtilisateurDAO().ValidateLogin(utilisateur)) //Passer par la BLL
+            if (UtilisateurDAO.ValidateLogin(utilisateur)) //Passer par la BLL
             {
                 MessageBox.Show("Connexion réussie!");
                 // Ajouter le code pour passer à la prochaine fenêtre ou effectuer d'autres actions après la connexion réussie.
@@ -53,7 +52,12 @@ namespace InfirmerieGUI
             // Optionnel : Ajouter du code en réponse à des modifications dans le champ du mot de passe.
         }
 
-        private void labelIdentifiant_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmModuleConnexion_Load(object sender, EventArgs e)
         {
 
         }
