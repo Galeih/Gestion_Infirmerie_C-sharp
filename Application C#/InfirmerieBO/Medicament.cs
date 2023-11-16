@@ -14,9 +14,13 @@ namespace InfirmerieBO
 
         public Medicament(int id_medicament, string nom_medicament, string quantite_medicament)
         {
-            this.id_medicament = id_medicament;
-            this.nom_medicament = nom_medicament;
-            this.quantite_medic = quantite_medicament;
+            this.Id_medicament = id_medicament;
+            this.Nom_medicament = nom_medicament;
+            this.Quantite_medic = quantite_medicament;
         }
+
+        public int Id_medicament { get => id_medicament; set => id_medicament = value; }
+        public string Nom_medicament { get => nom_medicament; set => nom_medicament = value; }
+        public string Quantite_medic { get => quantite_medic; set => quantite_medic = value; }
     }
 }

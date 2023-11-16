@@ -16,5 +16,8 @@ namespace InfirmerieBO
             this.id_classe = id_classe;
             this.libelle_classe = libelle_classe;
         }
+        public int Id_classe { get => id_classe; set => id_classe = value; }
+        public string Libelle_classe { get => libelle_classe; set => libelle_classe = value; }
+
     }
 }

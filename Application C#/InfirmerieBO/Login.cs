@@ -12,15 +12,19 @@ namespace InfirmerieBO
         //Plutot utiliser des propriétés auto-implementées (User et Password). Ces propriétés offrent des méthodes get et set automatiques 
         //pour accéder aux champs privés correspondants (user et password)
         //Utiliser une propriété sur id_login -> devenue IdLogin pour la convention de nommage 
-        public int IdLogin { get; protected set; }
-        public string User { get; set; }
-        public string Password { get; set; }
+        private int IdLogin;
+        private string User;
+        private string Password;
 
         public Login(string user, string password)
         {
-            User = user;
-            Password = password;
+            User1 = user;
+            Password1 = password;
         }
+
+        public int IdLogin1 { get => IdLogin; set => IdLogin = value; }
+        public string User1 { get => User; set => User = value; }
+        public string Password1 { get => Password; set => Password = value; }
     }
 }
 
