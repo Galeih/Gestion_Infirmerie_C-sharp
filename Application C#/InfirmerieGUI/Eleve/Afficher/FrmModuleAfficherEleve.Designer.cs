@@ -77,6 +77,7 @@
             this.btnRetourMenu.TabIndex = 5;
             this.btnRetourMenu.Text = "Retour";
             this.btnRetourMenu.UseVisualStyleBackColor = true;
+            this.btnRetourMenu.Click += new System.EventHandler(this.btnRetourMenu_Click);
             // 
             // FrmModuleAfficherEleve
             // 
@@ -90,6 +91,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmModuleAfficherEleve";
             this.Text = "FrmModuleAfficherEleve";
+            this.Load += new System.EventHandler(this.FrmModuleAfficherEleve_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEleve)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

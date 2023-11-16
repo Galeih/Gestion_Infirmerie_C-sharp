@@ -33,3 +33,5 @@ C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\Infirmerie
 C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CoreCompileInputs.cache
 C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
 C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleValidateSuppression.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleModifierEleve.resources
