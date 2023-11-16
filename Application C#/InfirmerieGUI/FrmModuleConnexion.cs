@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
 using InfirmerieBLL; // Référence la couche BLL
-using UtilisateurDAL;
 using InfirmerieBO;
 
 
