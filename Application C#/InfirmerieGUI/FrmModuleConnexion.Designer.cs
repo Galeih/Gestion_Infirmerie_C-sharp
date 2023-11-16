@@ -38,8 +38,8 @@
             // btnValidConnex
             // 
             this.btnValidConnex.BackColor = System.Drawing.Color.Gray;
-            this.btnValidConnex.Location = new System.Drawing.Point(376, 287);
-            this.btnValidConnex.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnValidConnex.Location = new System.Drawing.Point(258, 297);
+            this.btnValidConnex.Margin = new System.Windows.Forms.Padding(4);
             this.btnValidConnex.Name = "btnValidConnex";
             this.btnValidConnex.Size = new System.Drawing.Size(100, 28);
             this.btnValidConnex.TabIndex = 0;
@@ -50,7 +50,7 @@
             // labelIdentifiant
             // 
             this.labelIdentifiant.AutoSize = true;
-            this.labelIdentifiant.Location = new System.Drawing.Point(257, 109);
+            this.labelIdentifiant.Location = new System.Drawing.Point(137, 114);
             this.labelIdentifiant.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelIdentifiant.Name = "labelIdentifiant";
             this.labelIdentifiant.Size = new System.Drawing.Size(72, 16);
@@ -61,7 +61,7 @@
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(224, 228);
+            this.labelPassword.Location = new System.Drawing.Point(137, 196);
             this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(95, 16);
@@ -70,8 +70,8 @@
             // 
             // textBoxIdentifiant
             // 
-            this.textBoxIdentifiant.Location = new System.Drawing.Point(227, 153);
-            this.textBoxIdentifiant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxIdentifiant.Location = new System.Drawing.Point(285, 111);
+            this.textBoxIdentifiant.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxIdentifiant.Name = "textBoxIdentifiant";
             this.textBoxIdentifiant.Size = new System.Drawing.Size(226, 22);
             this.textBoxIdentifiant.TabIndex = 3;
@@ -79,10 +79,10 @@
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(361, 228);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPassword.Location = new System.Drawing.Point(285, 190);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(132, 22);
+            this.textBoxPassword.Size = new System.Drawing.Size(226, 22);
             this.textBoxPassword.TabIndex = 4;
             this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
@@ -90,13 +90,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 554);
+            this.ClientSize = new System.Drawing.Size(617, 406);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxIdentifiant);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelIdentifiant);
             this.Controls.Add(this.btnValidConnex);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmModuleConnexion";
             this.Text = "Form1";
             this.ResumeLayout(false);

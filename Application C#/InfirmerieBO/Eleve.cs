@@ -6,29 +6,36 @@ using System.Threading.Tasks;
 
 namespace InfirmerieBO
 {
-    internal class Eleve
+    public class Eleve
     {
-        private int id_eleve;
-        private string nom_eleve;
-        private string prenom_eleve;
-        private DateTime date_naissance;
-        private string num_tel;
-        private string num_tel_legal;
-        private string tiers_temps;
-        private string commentaire;
-        private int classe_fk;
-        public Eleve(int id_eleve, string nom_eleve, string prenom_eleve, DateTime date_naissance, string num_tel, string num_tel_legal, string tiers_temps, string commentaire, int classe_fk)
+        // Propriétés de la classe Eleve (En PascalCase pour le nom des propriétés)
+        public int IdEleve { get; set; }
+        public string NomEleve { get; set; }
+        public string PrenomEleve { get; set; }
+        public DateTime DateNaissance { get; set; }
+        public string NumTel { get; set; }
+        public string NumTelLegal { get; set; }
+        public string TiersTemps { get; set; }
+        public string Commentaire { get; set; }
+        public Classe ClasseFk { get; set; }
+
+        // Constructeur de la classe Eleve (En camelCase pour les paramètres du constructeur)
+        public Eleve(int idEleve, string nomEleve, string prenomEleve, DateTime dateNaissance, string numTel, string numTelLegal, string tiersTemps, string commentaire, Classe classeFk)
         {
-            this.id_eleve = id_eleve;
-            this.nom_eleve = nom_eleve;
-            this.prenom_eleve = prenom_eleve;
-            this.date_naissance = date_naissance;
-            this.num_tel = num_tel;
-            this.num_tel_legal = num_tel_legal;
-            this.tiers_temps = tiers_temps;
-            this.commentaire = commentaire;
-            this.classe_fk = classe_fk;
+            IdEleve = idEleve;
+            NomEleve = nomEleve;
+            PrenomEleve = prenomEleve;
+            DateNaissance = dateNaissance;
+            NumTel = numTel;
+            NumTelLegal = numTelLegal;
+            TiersTemps = tiersTemps;
+            Commentaire = commentaire;
+            ClasseFk = classeFk;
         }
 
+        // Constructeur par défaut si nécessaire (Initialisation de certains objets, Utilisation dans les tableaux, Sérialisation / Désérialisation)
+        public Eleve()
+        {
+        }
     }
 }
