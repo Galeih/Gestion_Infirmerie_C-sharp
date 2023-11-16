@@ -16,5 +16,16 @@ namespace InfirmerieGUI
         {
             InitializeComponent();
         }
+
+        private void buttonRetourSupprimer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSupprimer_Click(object sender, EventArgs e)
+        {
+            FrmModuleValidateSuppression validateSuppression = new FrmModuleValidateSuppression(this);
+            validateSuppression.Show();
+        }
     }
 }

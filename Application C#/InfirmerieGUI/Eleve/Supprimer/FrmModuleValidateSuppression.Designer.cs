@@ -1,6 +1,6 @@
 ﻿namespace InfirmerieGUI
 {
-    partial class FrmModulationValidateSuppression
+    partial class FrmModuleValidateSuppression
     {
         /// <summary>
         /// Required designer variable.
@@ -71,8 +71,9 @@
             this.buttonValidateNo.TabIndex = 3;
             this.buttonValidateNo.Text = "Non";
             this.buttonValidateNo.UseVisualStyleBackColor = true;
+            this.buttonValidateNo.Click += new System.EventHandler(this.buttonValidateNo_Click);
             // 
-            // FrmModulationValidateSuppression
+            // FrmModuleValidateSuppression
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -81,7 +82,7 @@
             this.Controls.Add(this.buttonValidateYes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "FrmModulationValidateSuppression";
+            this.Name = "FrmModuleValidateSuppression";
             this.Text = "FrmModulationValidateSuppression";
             this.ResumeLayout(false);
             this.PerformLayout();

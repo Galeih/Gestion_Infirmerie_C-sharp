@@ -4,3 +4,9 @@ C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBO\bin\Debug\I
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBO\bin\Debug\InfirmerieBO.pdb
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBO\obj\Debug\InfirmerieBO.dll
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieBO\obj\Debug\InfirmerieBO.pdb
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBO\bin\Debug\InfirmerieBO.dll
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBO\bin\Debug\InfirmerieBO.pdb
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBO\obj\Debug\InfirmerieBO.csproj.AssemblyReference.cache
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBO\obj\Debug\InfirmerieBO.csproj.CoreCompileInputs.cache
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBO\obj\Debug\InfirmerieBO.dll
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieBO\obj\Debug\InfirmerieBO.pdb

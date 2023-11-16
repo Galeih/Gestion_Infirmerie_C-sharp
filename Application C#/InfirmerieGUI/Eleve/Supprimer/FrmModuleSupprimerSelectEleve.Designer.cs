@@ -45,6 +45,7 @@
             this.buttonRetourSupprimer.TabIndex = 13;
             this.buttonRetourSupprimer.Text = "Retour";
             this.buttonRetourSupprimer.UseVisualStyleBackColor = true;
+            this.buttonRetourSupprimer.Click += new System.EventHandler(this.buttonRetourSupprimer_Click);
             // 
             // buttonSupprimer
             // 
@@ -54,6 +55,7 @@
             this.buttonSupprimer.TabIndex = 12;
             this.buttonSupprimer.Text = "Supprimer";
             this.buttonSupprimer.UseVisualStyleBackColor = true;
+            this.buttonSupprimer.Click += new System.EventHandler(this.buttonSupprimer_Click);
             // 
             // comboBoxEleveSupprimer
             // 

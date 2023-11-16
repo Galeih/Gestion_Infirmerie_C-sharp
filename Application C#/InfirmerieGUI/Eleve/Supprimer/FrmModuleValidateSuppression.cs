@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace InfirmerieGUI
 {
-    public partial class FrmModulationValidateSuppression : Form
+    public partial class FrmModuleValidateSuppression : Form
     {
-        public FrmModulationValidateSuppression()
+        private FrmModuleSupprimerSelectEleve parentFormSupprimer;
+        public FrmModuleValidateSuppression(FrmModuleSupprimerSelectEleve parentFormSupprimer)
         {
             InitializeComponent();
+            this.parentFormSupprimer = parentFormSupprimer;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -25,6 +27,14 @@ namespace InfirmerieGUI
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+
+        private void buttonValidateNo_Click(object sender, EventArgs e)
+        {
+            parentFormSupprimer.Show();
+            this.Close();
         }
     }
 }

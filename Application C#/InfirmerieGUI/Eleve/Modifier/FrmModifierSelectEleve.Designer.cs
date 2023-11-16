@@ -88,6 +88,7 @@
             this.buttonModifier.TabIndex = 5;
             this.buttonModifier.Text = "Modifier";
             this.buttonModifier.UseVisualStyleBackColor = true;
+            this.buttonModifier.Click += new System.EventHandler(this.buttonModifier_Click);
             // 
             // buttonRetourModifier
             // 

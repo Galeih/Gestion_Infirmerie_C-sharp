@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace InfirmerieGUI
 {
-    public partial class FrmModuleSupprimerEleve : Form
+    public partial class FrmModuleAccueil : Form
     {
-        public FrmModuleSupprimerEleve()
+        public FrmModuleAccueil()
         {
             InitializeComponent();
+        }
+
+        private void FrmModuleAccueil_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

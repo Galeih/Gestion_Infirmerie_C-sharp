@@ -77,6 +77,7 @@
             this.btnRetourMenu.TabIndex = 5;
             this.btnRetourMenu.Text = "Retour";
             this.btnRetourMenu.UseVisualStyleBackColor = true;
+            this.btnRetourMenu.Click += new System.EventHandler(this.btnRetourMenu_Click);
             // 
             // FrmModuleAfficherEleve
             // 
