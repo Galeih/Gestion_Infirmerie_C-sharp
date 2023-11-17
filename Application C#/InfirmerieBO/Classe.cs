@@ -6,15 +6,22 @@ using System.Threading.Tasks;
 
 namespace InfirmerieBO
 {
-    internal class Classe
+    public class Classe
     {
-        private int id_classe;
-        private string libelle_classe;
+        private readonly int idClasse;
+        private readonly string libelleClasse;
 
-        public Classe(int id_classe, string libelle_classe)
+        // Constructeur de la classe Classe
+        public Classe(int idClasse, string libelleClasse)
         {
-            this.id_classe = id_classe;
-            this.libelle_classe = libelle_classe;
+            this.idClasse = idClasse;
+            this.libelleClasse = libelleClasse;
         }
+
+        // Propriété en lecture seule pour l'identifiant de la classe
+        public int IdClasse => idClasse;
+
+        // Propriété en lecture seule pour le libellé de la classe
+        public string LibelleClasse => libelleClasse;
     }
 }

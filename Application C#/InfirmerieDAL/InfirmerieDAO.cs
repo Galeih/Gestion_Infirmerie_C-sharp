@@ -2,7 +2,7 @@
 using System.Data.SqlClient;
 using InfirmerieBO; // Référence la couche BO
 
-namespace UtilisateurDAL
+namespace InfirmerieDAL
 {
     public class UtilisateurDao
     {
@@ -33,14 +33,14 @@ namespace UtilisateurDAL
             using (SqlConnection connection = new SqlConnection(chaineConnexion))
             {
                 string query = "SELECT COUNT(*) FROM Utilisateurs WHERE NomUtilisateur = @NomUtilisateur AND MotDePasse = @MotDePasse";
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@NomUtilisateur", utilisateur.User);
-                command.Parameters.AddWithValue("@MotDePasse", utilisateur.Password);
+                SqlCommand cmd = new SqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@NomUtilisateur", utilisateur.User);
+                cmd.Parameters.AddWithValue("@MotDePasse", utilisateur.Password);
 
                 try
                 {
                     connection.Open();
-                    int count = (int)command.ExecuteScalar();
+                    int count = (int)cmd.ExecuteScalar();
                     if (count > 0)
                     {
                         loginIsValid = true;
