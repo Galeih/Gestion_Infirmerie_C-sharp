@@ -47,16 +47,79 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Eleve\Supprimer\FrmModuleValidateSuppression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\Supprimer\FrmModuleValidateSuppression.Designer.cs">
+      <DependentUpon>FrmModuleValidateSuppression.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleve\Ajouter\FrmModuleAjouterEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\Ajouter\FrmModuleAjouterEleve.Designer.cs">
+      <DependentUpon>FrmModuleAjouterEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleve\Modifier\FrmModifierSelectEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\Modifier\FrmModifierSelectEleve.Designer.cs">
+      <DependentUpon>FrmModifierSelectEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleve\Afficher\FrmModuleAfficherEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\Afficher\FrmModuleAfficherEleve.Designer.cs">
+      <DependentUpon>FrmModuleAfficherEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModuleAccueil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModuleAccueil.Designer.cs">
+      <DependentUpon>FrmModuleAccueil.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmModuleConnexion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmModuleConnexion.Designer.cs">
       <DependentUpon>FrmModuleConnexion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Eleve\Supprimer\FrmModuleSupprimerSelectEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\Supprimer\FrmModuleSupprimerSelectEleve.Designer.cs">
+      <DependentUpon>FrmModuleSupprimerSelectEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleve\Modifier\FrmModuleModifierEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\Modifier\FrmModuleModifierEleve.Designer.cs">
+      <DependentUpon>FrmModuleModifierEleve.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Eleve\Supprimer\FrmModuleValidateSuppression.resx">
+      <DependentUpon>FrmModuleValidateSuppression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\Ajouter\FrmModuleAjouterEleve.resx">
+      <DependentUpon>FrmModuleAjouterEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\Modifier\FrmModifierSelectEleve.resx">
+      <DependentUpon>FrmModifierSelectEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\Afficher\FrmModuleAfficherEleve.resx">
+      <DependentUpon>FrmModuleAfficherEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModuleAccueil.resx">
+      <DependentUpon>FrmModuleAccueil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmModuleConnexion.resx">
       <DependentUpon>FrmModuleConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\Supprimer\FrmModuleSupprimerSelectEleve.resx">
+      <DependentUpon>FrmModuleSupprimerSelectEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\Modifier\FrmModuleModifierEleve.resx">
+      <DependentUpon>FrmModuleModifierEleve.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

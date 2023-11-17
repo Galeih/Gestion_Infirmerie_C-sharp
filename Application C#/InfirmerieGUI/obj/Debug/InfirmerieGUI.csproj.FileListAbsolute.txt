@@ -16,21 +16,22 @@ C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CopyComplete
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
 C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.AssemblyReference.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.SuggestedBindingRedirects.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleConnexion.resources
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.Properties.Resources.resources
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.GenerateResource.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CoreCompileInputs.cache
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieGUI.exe.config
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieGUI.exe
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieGUI.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBLL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBO.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieDAL.dll
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBLL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieBO.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\bin\Debug\InfirmerieDAL.pdb
-C:\Users\monst\Source\Repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CopyComplete
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModifierSelectEleve.resources
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleAfficherEleve.resources
+C:\Users\tomza\OneDrive\Bureau\GestionInfirmerie\projet\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleModierEleve.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.AssemblyReference.cache
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModulationValidateSuppression.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleAjouterEleve.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModifierSelectEleve.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleAfficherEleve.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleConnexion.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleModierEleve.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleSupprimerSelectEleve.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.Properties.Resources.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.GenerateResource.cache
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.csproj.CoreCompileInputs.cache
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.exe
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.pdb
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleValidateSuppression.resources
+C:\Users\tomza\source\repos\Gestion_Infirmerie_C-sharp\Application C#\InfirmerieGUI\obj\Debug\InfirmerieGUI.FrmModuleModifierEleve.resources
