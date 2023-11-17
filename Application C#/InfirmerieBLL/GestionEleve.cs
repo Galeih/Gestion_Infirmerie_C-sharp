@@ -4,14 +4,14 @@ using System.Configuration;
 using System.Data.SqlClient;
 using InfirmerieBO;
 using InfirmerieDAL;
-
+using UtilisateurDAL;
 
 namespace InfirmerieBLL
 {
     public class GestionEleves
     {
         private static GestionEleves uneGestionEleves; // Objet BLL
-        private EleveDAO eleveDAO; // Référence vers la couche DAL
+        private EleveDao eleveDAO; // Référence vers la couche DAL
 
         // Accesseur en lecture
         public static GestionEleves GetGestionEleves()
@@ -31,7 +31,7 @@ namespace InfirmerieBLL
             ConnexionBD.GetConnexionBD().SetchaineConnexion(chaine);
 
             // Initialisation de la couche DAL (EleveDAO)
-            eleveDAO = new EleveDAO();
+            eleveDAO = new EleveDao();
         }
 
         // Récupère une liste d'objets contenant tous les élèves

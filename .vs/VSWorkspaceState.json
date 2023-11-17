@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Application C#",
-    "\\Application C#\\GestionInfirmerie",
-    "\\Application C#\\InfirmerieBLL",
     "\\Application C#\\InfirmerieDAL",
     "\\Application C#\\InfirmerieGUI"
   ],
-  "SelectedNode": "\\Application C#\\InfirmerieGUI\\FrmModuleConnexion.cs",
+  "SelectedNode": "\\Application C#\\InfirmerieDAL\\InfirmerieDAO.cs",
   "PreviewInSolutionExplorer": false
 }

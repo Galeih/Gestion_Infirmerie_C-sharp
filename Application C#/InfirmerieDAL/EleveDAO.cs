@@ -29,7 +29,6 @@ namespace InfirmerieDAL
                     {
                         while (reader.Read())
                         {
-                            Classe classe = new Classe(Int32.Parse(reader["id_classe_eleve"].ToString()), reader["nom_classe"].ToString());
 
                             Eleve eleve = new Eleve
                             {

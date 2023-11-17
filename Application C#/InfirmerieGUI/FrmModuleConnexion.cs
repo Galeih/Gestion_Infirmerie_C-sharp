@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Windows.Forms;
 using System;
 using UtilisateurDAL;
+using InfirmerieDAL;
 
 namespace InfirmerieGUI
 {
@@ -55,7 +56,7 @@ namespace InfirmerieGUI
 
         private void labelIdentifiant_Click(object sender, EventArgs e)
         {
-
+            throw new NotSupportedException();
         }
     }
 }
