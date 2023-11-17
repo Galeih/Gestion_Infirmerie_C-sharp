@@ -30,7 +30,7 @@ namespace InfirmerieGUI
             Login utilisateur = new Login(textBoxIdentifiant.Text, textBoxPassword.Text);
 
             // Vérifier les identifiants dans la base de données
-            if (UtilisateurDAO.ValidateLogin(utilisateur)) //Passer par la BLL
+            if (GestionUtilisateurs.ValidateLogin(utilisateur)) //Passer par la BLL
             {
                 MessageBox.Show("Connexion réussie!");
                 // Ajouter le code pour passer à la prochaine fenêtre ou effectuer d'autres actions après la connexion réussie.

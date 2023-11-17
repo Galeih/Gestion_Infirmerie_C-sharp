@@ -1,4 +1,6 @@
-﻿namespace InfirmerieGUI
+﻿using System;
+
+namespace InfirmerieGUI
 {
     partial class FrmModuleModifierEleve
     {
@@ -271,5 +273,6 @@
         private System.Windows.Forms.Label labelPrenomEleve;
         private System.Windows.Forms.Label labelNomEleve;
         private System.Windows.Forms.Label labelModifierEleve;
+        private EventHandler buttonRetourAfficherEleve_Click;
     }
 }

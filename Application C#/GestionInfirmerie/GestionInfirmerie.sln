@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionInfirmerie", "GestionInfirmerie.csproj", "{7FD51027-CDB3-4EB5-A6A8-22CB4578F500}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfirmerieBO", "..\InfirmerieBO\InfirmerieBO.csproj", "{F236D788-8BE7-4D83-9ACA-FDBD64272208}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfirmerieBLL", "..\InfirmerieBLL\InfirmerieBLL.csproj", "{F19AA6CC-13AD-4087-BC33-E6508D516B0F}"
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7FD51027-CDB3-4EB5-A6A8-22CB4578F500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FD51027-CDB3-4EB5-A6A8-22CB4578F500}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FD51027-CDB3-4EB5-A6A8-22CB4578F500}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FD51027-CDB3-4EB5-A6A8-22CB4578F500}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F236D788-8BE7-4D83-9ACA-FDBD64272208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F236D788-8BE7-4D83-9ACA-FDBD64272208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F236D788-8BE7-4D83-9ACA-FDBD64272208}.Release|Any CPU.ActiveCfg = Release|Any CPU

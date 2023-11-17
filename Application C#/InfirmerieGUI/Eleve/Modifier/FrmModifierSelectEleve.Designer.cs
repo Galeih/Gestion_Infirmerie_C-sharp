@@ -67,10 +67,17 @@
             // comboBoxClasseEleve
             // 
             this.comboBoxClasseEleve.FormattingEnabled = true;
+            this.comboBoxClasseEleve.Items.AddRange(new object[] {
+            "Seconde ",
+            "Première",
+            "Terminale",
+            "BTS1",
+            "BTS2"});
             this.comboBoxClasseEleve.Location = new System.Drawing.Point(236, 144);
             this.comboBoxClasseEleve.Name = "comboBoxClasseEleve";
             this.comboBoxClasseEleve.Size = new System.Drawing.Size(121, 21);
             this.comboBoxClasseEleve.TabIndex = 3;
+            this.comboBoxClasseEleve.SelectedIndexChanged += new System.EventHandler(this.comboBoxClasseEleve_SelectedIndexChanged);
             // 
             // comboBoxEleveModifier
             // 

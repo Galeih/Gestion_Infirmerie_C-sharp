@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace InfirmerieBO
 {
-    internal class Medicament
+    public class Medicament
     {
-        private int id_medicament;
-        private string nom_medicament;
-        private string quantite_medic;
+        public int Id_medicament { get; set; }
+        public string Nom_medicament { get; set; }
+        public string Quantite_medic { get; set; }
 
         public Medicament(int id_medicament, string nom_medicament, string quantite_medicament)
         {
-            this.id_medicament = id_medicament;
-            this.nom_medicament = nom_medicament;
-            this.quantite_medic = quantite_medicament;
+            Id_medicament = id_medicament;
+            Nom_medicament = nom_medicament;
+            Quantite_medic = quantite_medicament;
         }
     }
 }

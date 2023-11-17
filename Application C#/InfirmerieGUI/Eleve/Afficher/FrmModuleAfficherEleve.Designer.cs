@@ -68,6 +68,7 @@
             this.dataGridViewEleve.Name = "dataGridViewEleve";
             this.dataGridViewEleve.Size = new System.Drawing.Size(487, 181);
             this.dataGridViewEleve.TabIndex = 3;
+            this.dataGridViewEleve.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEleve_CellContentClick);
             // 
             // btnRetourMenu
             // 

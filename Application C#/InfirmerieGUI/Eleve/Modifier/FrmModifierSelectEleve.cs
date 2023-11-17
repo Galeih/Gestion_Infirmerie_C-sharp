@@ -7,6 +7,7 @@ namespace InfirmerieGUI
     {
         private FrmModuleModifierEleve modifierEleve;
         private FrmModuleAccueil voirEleve;
+        private 
 
         //Constructeur de "FrmModifierSelectEleve"
         public FrmModifierSelectEleve()
@@ -31,6 +32,11 @@ namespace InfirmerieGUI
         {
             modifierEleve.Show();
             this.Close();
+        }
+
+        private void comboBoxClasseEleve_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
