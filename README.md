@@ -11,6 +11,7 @@ Elle permet à l’équipe de vie scolaire et à l’infirmier·ère de centrali
 
 - [Fonctionnalités](#fonctionnalités)
 - [Architecture](#architecture)
+- [Maquette Figma](#maquette-figma)
 - [Pré-requis](#pré-requis)
 - [Installation](#installation)
 - [Configuration de la base de données](#configuration-de-la-base-de-données)
@@ -51,6 +52,10 @@ Elle permet à l’équipe de vie scolaire et à l’infirmier·ère de centrali
 └──────────────────┘
 ```
 L’architecture N-tiers facilite la maintenance : chaque couche est indépendante et testable.
+
+## Maquette Figma
+
+https://www.figma.com/design/mzsS2k6GYzaiR4GuZg7o5S/PPE-C--Template?node-id=0-1&p=f&t=mHH1e104Ho2mimFH-0
 
 ## Pré-requis
 
